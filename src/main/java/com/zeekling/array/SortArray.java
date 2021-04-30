@@ -5,8 +5,11 @@ public class SortArray {
     public static void main(String[] args) {
         int[] a = {2, 4, 6, 8, 3, 6, 9, 12};
         doSomething(a, 0, a.length - 1);
-        for (int i = 0; i <= a.length - 1; i++)
+        for (int i = 0; i <= a.length - 1; i++) {
             System.out.print(a[i] + " ");
+        }
+        System.out.println();
+
     }
 
     private static void doSomething(int[] a, int start, int end) {
